@@ -1,0 +1,26 @@
+{
+    "name": "ai-dungeon-master-backend",
+    "version": "1.0.0",
+    "description": "Backend server for AI Dungeon Master - A multiplayer text RPG powered by AI",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["ai", "rpg", "dungeon-master", "text-adventure"],
+    "author": "DharsanHunt",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "openai": "^4.24.1",
+        "sql.js": "^1.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
